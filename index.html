@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" type="image/x-icon" href="./src/img/logo.svg">
+   <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+   <link rel="stylesheet" href="css/style.css">
+   <title>Boostfolia</title>
+</head>
+<body>
+   <header class="header">
+      <div class="container header__container">
+         <div class="logo">
+            <img src="./src/img/logo.png" alt="logo">
+         </div>
+         <div class="header__burger">
+            <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#696969">
+               <path d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z"/>
+            </svg>
+         </div>
+      </div>
+   </header>
+   <div class="hero swiper-container">
+      <div class="hero__slider swiper-wrapper">
+         <div class="hero__slide swiper-slide">
+            <div class="container hero__container">
+               <h1 class="hero__title">We think creative be creative</h1>
+               <h2 class="hero__subtitle">Like to do creative works</h2>
+            </div>
+         </div>
+         <div class="hero__slide swiper-slide">
+            <div class="container hero__container">
+               <h1 class="hero__title">We think creative be creative</h1>
+               <h2 class="hero__subtitle">Like to do creative works</h2>
+            </div>
+         </div>
+         <div class="hero__slide swiper-slide">
+            <div class="container hero__container">
+               <h1 class="hero__title">We think creative be creative</h1>
+               <h2 class="hero__subtitle">Like to do creative works</h2>
+            </div>
+         </div>
+      </div>
+      <div class="hero__arrows">
+         <div class="swiper-button-prev"></div>
+         <div class="swiper-button-next"></div>
+      </div>
+      <button class="hero__scroll">
+         <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#ffffff">
+            <path d="M480-80q-117.33 0-198.67-81.33Q200-242.67 200-360v-253.33q0-117.34 81.33-198.67 81.34-81.33 198.67-81.33 117.33 0 198.67 81.33Q760-730.67 760-613.33V-360q0 117.33-81.33 198.67Q597.33-80 480-80Zm33.33-533.33h180q0-78-50.5-138.34Q592.33-812 513.33-824v210.67Zm-246.66 0h180V-824q-79 12-129.5 72.33-50.5 60.34-50.5 138.34Zm213.19 466.66q88.47 0 150.97-62.4T693.33-360v-186.67H266.67V-360q0 88.53 62.36 150.93 62.35 62.4 150.83 62.4Zm.14-400Zm33.33-66.66Zm-66.66 0ZM480-546.67Z"/>
+         </svg>
+         <span class="hero__hint">Scroll down</span>
+      </button>
+   </div>
+   <section class="about">
+      <div class="container">
+         <div class="about__header section-header">
+            <h2 class="about__header-title section-title">About us</h2>
+            <p class="about__header-text section-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+         </div>
+         <ul class="about__items list-reset">
+            <li class="about__item">
+               <div class="about__icon">
+                  <img src="./src/img/about/1.svg" alt="brush icon">
+               </div>
+               <h3 class="about__title">Creative design</h3>
+               <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do . . .</p>
+            </li>
+            <li class="about__item">
+               <div class="about__icon">
+                  <img src="./src/img/about/2.svg" alt="portfolio icon">
+               </div>
+               <h3 class="about__title">Uniqu portfolio</h3>
+               <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do . . .</p>
+            </li>
+            <li class="about__item">
+               <div class="about__icon">
+                  <img src="./src/img/about/3.svg" alt="infinite icon">
+               </div>
+               <h3 class="about__title">Infinite updates</h3>
+               <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do . . .</p>
+            </li>
+         </ul>
+      </div>
+   </section>
+   <div class="video">
+      <div class="video__content">
+         <div class="container">
+            <div class="video__body">
+               <h3 class="video__title">Watch behind the scene</h3>
+               <p class="video__text">Lorem ipsum dolo the lorem r sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+               <button class="video__button">Play now</button>
+            </div>
+         </div>
+      </div>
+      <div class="video__img">
+         <img src="./src/img/video.jpg" alt="video cover">
+      </div>
+   </div>
+   <section class="works">
+      <div class="container">
+         <div class="works__header section-header">
+            <h2 class="works__header-title section-title">Our works</h2>
+            <p class="works__header-text section-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+         </div>
+         <ul class="works__category list-reset">
+            <li class="works__filter clicked" data-filter="all">All project</li>
+            <li class="works__filter" data-filter="photography">Photography</li>
+            <li class="works__filter" data-filter="web">Web design</li>
+            <li class="works__filter" data-filter="branding">Branding</li>
+            <li class="works__filter" data-filter="mobile">Mobile app</li>
+         </ul>
+      </div>
+      <ul class="works__items list-reset">
+         <li class="works__item photography">
+            <img src="./src/img/works/1.jpg" alt="work 1">
+         </li>
+         <li class="works__item web">
+            <img src="./src/img/works/2.jpg" alt="work 2">
+         </li>
+         <li class="works__item web">
+            <img src="./src/img/works/3.jpg" alt="work 3">
+         </li>
+         <li class="works__item mobile">
+            <img src="./src/img/works/4.jpg" alt="work 4">
+         </li>
+         <li class="works__item photography">
+            <img src="./src/img/works/5.jpg" alt="work 5">
+         </li>
+         <li class="works__item mobile">
+            <img src="./src/img/works/6.jpg" alt="work 6">
+         </li>
+         <li class="works__item branding">
+            <img src="./src/img/works/5.jpg" alt="work 7">
+         </li>
+         <li class="works__item photography">
+            <img src="./src/img/works/1.jpg" alt="work 8">
+         </li>
+         <li class="works__item photography">
+            <img src="./src/img/works/2.jpg" alt="work 9">
+         </li>
+         <li class="works__item branding">
+            <img src="./src/img/works/3.jpg" alt="work 10">
+         </li>
+         <li class="works__item mobile">
+            <img src="./src/img/works/4.jpg" alt="work 11">
+         </li>
+         <li class="works__item web">
+            <img src="./src/img/works/2.jpg" alt="work 12">
+         </li>
+         <li class="works__item web">
+            <img src="./src/img/works/3.jpg" alt="work 13">
+         </li>
+         <li class="works__item branding">
+            <img src="./src/img/works/5.jpg" alt="work 14">
+         </li>
+         <li class="works__item branding">
+            <img src="./src/img/works/1.jpg" alt="work 15">
+         </li>
+      </ul>
+   </section>
+   <div class="partners">
+      <div class="container partners__container">
+         <div class="partners__item">
+            <img src="./src/img/partner/1.png" alt="themesforest logo">
+         </div>
+         <div class="partners__item">
+            <img src="./src/img/partner/2.png" alt="graphicriver logo">
+         </div>
+         <div class="partners__item">
+            <img src="./src/img/partner/3.png" alt="videohive logo">
+         </div>
+      </div>
+   </div>
+   <section class="team">
+      <div class="container">
+         <div class="team__header section-header">
+            <h2 class="team__header-title section-title">Who we are</h2>
+            <p class="team__header-text section-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+         </div>
+         <div class="team__slider swiper-container">
+            <ul class="team__members list-reset swiper-wrapper">
+               <li class="team__member swiper-slide">
+                  <div class="team__card">
+                     <div class="team__img">
+                        <img src="./src/img/team/1.jpg" alt="team member 1">
+                     </div>
+                     <h3 class="team__name">John Doe</h3>
+                     <h4 class="team__prof">Designer</h4>
+                     <ul class="team__social-list list-reset">
+                        <li class="team__social-item">
+                           <a href="#" class="team__social-link">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="20px" height="20px" fill="#696969">
+                                 <path d="M232 237.2c31.8-15.2 48.4-38.2 48.4-74 0-70.6-52.6-87.8-113.3-87.8H0v354.4h171.8c64.4 0 124.9-30.9 124.9-102.9 0-44.5-21.1-77.4-64.7-89.7zM77.9 135.9H151c28.1 0 53.4 7.9 53.4 40.5 0 30.1-19.7 42.2-47.5 42.2h-79v-82.7zm83.3 233.7H77.9V272h84.9c34.3 0 56 14.3 56 50.6 0 35.8-25.9 47-57.6 47zm358.5-240.7H376V94h143.7v34.9zM576 305.2c0-75.9-44.4-139.2-124.9-139.2-78.2 0-131.3 58.8-131.3 135.8 0 79.9 50.3 134.7 131.3 134.7 61.3 0 101-27.6 120.1-86.3H509c-6.7 21.9-34.3 33.5-55.7 33.5-41.3 0-63-24.2-63-65.3h185.1c.3-4.2 .6-8.7 .6-13.2zM390.4 274c2.3-33.7 24.7-54.8 58.5-54.8 35.4 0 53.2 20.8 56.2 54.8H390.4z"/>
+                              </svg>
+                           </a>
+                        </li>
+                        <li class="team__social-item">
+                           <a href="#" class="team__social-link">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20px" height="20px" fill="#696969">
+                                 <path d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z"/>
+                              </svg>
+                           </a>
+                        </li>
+                        <li class="team__social-item">
+                           <a href="#" class="team__social-link">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="20px" height="20px" fill="#696969">
+                                 <path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64h98.2V334.2H109.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H255V480H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z"/>
+                              </svg>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="team__info">
+                     <h3 class="team__title">My skills</h3>
+                     <p class="team__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.nsectetur adipisicing elit, sed do eiusmod tempor.</p>
+                     <ul class="team__skills list-reset">
+                        <li class="team__skill skill">
+                           <h4 class="skill__title">Photoshop</h4>
+                           <div class="skill__progress">
+                              <span class="skill__progress-bar"></span>
+                          </div>
+                          <span class="skill__percent">88%</span>
+                        </li>
+                        <li class="team__skill skill">
+                           <h4 class="skill__title">Illustrator</h4>
+                           <div class="skill__progress">
+                              <span class="skill__progress-bar"></span>
+                          </div>
+                          <span class="skill__percent">92%</span>
+                        </li>
+                        <li class="team__skill skill">
+                           <h4 class="skill__title">Sketch</h4>
+                           <div class="skill__progress">
+                              <span class="skill__progress-bar"></span>
+                          </div>
+                          <span class="skill__percent">90%</span>
+                        </li>
+                        <li class="team__skill skill">
+                           <h4 class="skill__title">After effects</h4>
+                           <div class="skill__progress">
+                              <span class="skill__progress-bar"></span>
+                          </div>
+                          <span class="skill__percent">98%</span>
+                        </li>
+                     </ul>
+                  </div>
+               </li>
+               <li class="team__member swiper-slide">
+                  <div class="team__card">
+                     <div class="team__img">
+                        <img src="./src/img/team/2.jpg" alt="team member 2">
+                     </div>
+                     <h3 class="team__name">Jim Smith</h3>
+                     <h4 class="team__prof">Producer</h4>
+                     <ul class="team__social-list list-reset">
+                        <li class="team__social-item">
+                           <a href="#" class="team__social-link">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="20px" height="20px" fill="#696969">
+                                 <path d="M232 237.2c31.8-15.2 48.4-38.2 48.4-74 0-70.6-52.6-87.8-113.3-87.8H0v354.4h171.8c64.4 0 124.9-30.9 124.9-102.9 0-44.5-21.1-77.4-64.7-89.7zM77.9 135.9H151c28.1 0 53.4 7.9 53.4 40.5 0 30.1-19.7 42.2-47.5 42.2h-79v-82.7zm83.3 233.7H77.9V272h84.9c34.3 0 56 14.3 56 50.6 0 35.8-25.9 47-57.6 47zm358.5-240.7H376V94h143.7v34.9zM576 305.2c0-75.9-44.4-139.2-124.9-139.2-78.2 0-131.3 58.8-131.3 135.8 0 79.9 50.3 134.7 131.3 134.7 61.3 0 101-27.6 120.1-86.3H509c-6.7 21.9-34.3 33.5-55.7 33.5-41.3 0-63-24.2-63-65.3h185.1c.3-4.2 .6-8.7 .6-13.2zM390.4 274c2.3-33.7 24.7-54.8 58.5-54.8 35.4 0 53.2 20.8 56.2 54.8H390.4z"/>
+                              </svg>
+                           </a>
+                        </li>
+                        <li class="team__social-item">
+                           <a href="#" class="team__social-link">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20px" height="20px" fill="#696969">
+                                 <path d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z"/>
+                              </svg>
+                           </a>
+                        </li>
+                        <li class="team__social-item">
+                           <a href="#" class="team__social-link">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="20px" height="20px" fill="#696969">
+                                 <path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64h98.2V334.2H109.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H255V480H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z"/>
+                              </svg>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="team__info">
+                     <h3 class="team__title">My skills</h3>
+                     <p class="team__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.nsectetur adipisicing elit, sed do eiusmod tempor.</p>
+                     <ul class="team__skills list-reset">
+                        <li class="team__skill skill">
+                           <h4 class="skill__title">Photoshop</h4>
+                           <div class="skill__progress">
+                              <span class="skill__progress-bar"></span>
+                          </div>
+                          <span class="skill__percent">95%</span>
+                        </li>
+                        <li class="team__skill skill">
+                           <h4 class="skill__title">Illustrator</h4>
+                           <div class="skill__progress">
+                              <span class="skill__progress-bar"></span>
+                          </div>
+                          <span class="skill__percent">82%</span>
+                        </li>
+                        <li class="team__skill skill">
+                           <h4 class="skill__title">Sketch</h4>
+                           <div class="skill__progress">
+                              <span class="skill__progress-bar"></span>
+                          </div>
+                          <span class="skill__percent">55%</span>
+                        </li>
+                        <li class="team__skill skill">
+                           <h4 class="skill__title">After effects</h4>
+                           <div class="skill__progress">
+                              <span class="skill__progress-bar"></span>
+                          </div>
+                          <span class="skill__percent">91%</span>
+                        </li>
+                     </ul>
+                  </div>
+               </li>
+               <li class="team__member swiper-slide">
+                  <div class="team__card">
+                     <div class="team__img">
+                        <img src="./src/img/team/3.jpg" alt="team member 3">
+                     </div>
+                     <h3 class="team__name">Alan</h3>
+                     <h4 class="team__prof">CEO</h4>
+                     <ul class="team__social-list list-reset">
+                        <li class="team__social-item">
+                           <a href="#" class="team__social-link">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="20px" height="20px" fill="#696969">
+                                 <path d="M232 237.2c31.8-15.2 48.4-38.2 48.4-74 0-70.6-52.6-87.8-113.3-87.8H0v354.4h171.8c64.4 0 124.9-30.9 124.9-102.9 0-44.5-21.1-77.4-64.7-89.7zM77.9 135.9H151c28.1 0 53.4 7.9 53.4 40.5 0 30.1-19.7 42.2-47.5 42.2h-79v-82.7zm83.3 233.7H77.9V272h84.9c34.3 0 56 14.3 56 50.6 0 35.8-25.9 47-57.6 47zm358.5-240.7H376V94h143.7v34.9zM576 305.2c0-75.9-44.4-139.2-124.9-139.2-78.2 0-131.3 58.8-131.3 135.8 0 79.9 50.3 134.7 131.3 134.7 61.3 0 101-27.6 120.1-86.3H509c-6.7 21.9-34.3 33.5-55.7 33.5-41.3 0-63-24.2-63-65.3h185.1c.3-4.2 .6-8.7 .6-13.2zM390.4 274c2.3-33.7 24.7-54.8 58.5-54.8 35.4 0 53.2 20.8 56.2 54.8H390.4z"/>
+                              </svg>
+                           </a>
+                        </li>
+                        <li class="team__social-item">
+                           <a href="#" class="team__social-link">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20px" height="20px" fill="#696969">
+                                 <path d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z"/>
+                              </svg>
+                           </a>
+                        </li>
+                        <li class="team__social-item">
+                           <a href="#" class="team__social-link">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="20px" height="20px" fill="#696969">
+                                 <path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64h98.2V334.2H109.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H255V480H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z"/>
+                              </svg>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="team__info">
+                     <h3 class="team__title">My skills</h3>
+                     <p class="team__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.nsectetur adipisicing elit, sed do eiusmod tempor.</p>
+                     <ul class="team__skills list-reset">
+                        <li class="team__skill skill">
+                           <h4 class="skill__title">Photoshop</h4>
+                           <div class="skill__progress">
+                              <span class="skill__progress-bar"></span>
+                          </div>
+                          <span class="skill__percent">67%</span>
+                        </li>
+                        <li class="team__skill skill">
+                           <h4 class="skill__title">Illustrator</h4>
+                           <div class="skill__progress">
+                              <span class="skill__progress-bar"></span>
+                          </div>
+                          <span class="skill__percent">85%</span>
+                        </li>
+                        <li class="team__skill skill">
+                           <h4 class="skill__title">Sketch</h4>
+                           <div class="skill__progress">
+                              <span class="skill__progress-bar"></span>
+                          </div>
+                          <span class="skill__percent">59%</span>
+                        </li>
+                        <li class="team__skill skill">
+                           <h4 class="skill__title">After effects</h4>
+                           <div class="skill__progress">
+                              <span class="skill__progress-bar"></span>
+                          </div>
+                          <span class="skill__percent">90%</span>
+                        </li>
+                     </ul>
+                  </div>
+               </li>
+            </ul>
+            <div class="swiper-pagination"></div>
+         </div>
+      </div>
+   </section>
+   <section class="features">
+      <div class="container">
+         <h2 class="features__header-title section-small-title">Some features</h2>
+         <ul class="features__items list-reset">
+            <li class="features__item">
+               <h3 class="features__title">Shortcodes</h3>
+               <span class="features__num">46</span>
+            </li>
+            <li class="features__item">
+               <h3 class="features__title">Integrated Plugins</h3>
+               <span class="features__num">128</span>
+            </li>
+            <li class="features__item">
+               <h3 class="features__title">Creative Products</h3>
+               <span class="features__num">450</span>
+            </li>
+            <li class="features__item">
+               <h3 class="features__title">Clients Worldwide</h3>
+               <span class="features__num">100+</span>
+            </li>
+         </ul>
+      </div>
+   </section>
+   <section class="blog">
+      <div class="container">
+         <div class="blog__header section-header">
+            <h2 class="blog__header-title section-title">Blog posts</h2>
+            <p class="blog__header-text section-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+         </div>
+         <div class="blog__articles">
+            <article class="blog__article">
+               <div class="blog__img">
+                  <img src="./src/img/works/1.jpg" alt="News 1">
+                  <div class="blog__hover">
+                     <button class="blog__hover-icons" aria-label="Coppy link">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                           <path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/>
+                        </svg>
+                     </button>
+                     <button class="blog__hover-icons">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                           <path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM144 256a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm144-64c0 35.3-28.7 64-64 64c-7.1 0-13.9-1.2-20.3-3.3c-5.5-1.8-11.9 1.6-11.7 7.4c.3 6.9 1.3 13.8 3.2 20.7c13.7 51.2 66.4 81.6 117.6 67.9s81.6-66.4 67.9-117.6c-11.1-41.5-47.8-69.4-88.6-71.1c-5.8-.2-9.2 6.1-7.4 11.7c2.1 6.4 3.3 13.2 3.3 20.3z"/>
+                        </svg>
+                     </button>
+                  </div>
+               </div>
+               <div class="blog__info">
+                  <h3 class="blog__title">
+                     <a href="#">Creat Creative & Clean</a>
+                  </h3>
+                  <p class="blog__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <div class="blog__footer">
+                     <div class="blog__date">
+                        <time datetime="2015-01-25">25 Jan 2015</time>.
+                     </div>
+                     <ul class="blog__stat list-reset">
+                        <li class="blog__stat-item blog__stat-item--like">25</li>
+                        <li class="blog__stat-item blog__stat-item--comment">11</li>
+                     </ul>
+                  </div>
+               </div>
+            </article>
+            <article class="blog__article">
+               <div class="blog__img">
+                  <img src="./src/img/works/2.jpg" alt="News 2">
+                  <div class="blog__hover">
+                     <button class="blog__hover-icons" aria-label="Coppy link">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                           <path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/>
+                        </svg>
+                     </button>
+                     <button class="blog__hover-icons">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                           <path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM144 256a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm144-64c0 35.3-28.7 64-64 64c-7.1 0-13.9-1.2-20.3-3.3c-5.5-1.8-11.9 1.6-11.7 7.4c.3 6.9 1.3 13.8 3.2 20.7c13.7 51.2 66.4 81.6 117.6 67.9s81.6-66.4 67.9-117.6c-11.1-41.5-47.8-69.4-88.6-71.1c-5.8-.2-9.2 6.1-7.4 11.7c2.1 6.4 3.3 13.2 3.3 20.3z"/>
+                        </svg>
+                     </button>
+                  </div>
+               </div>
+               <div class="blog__info">
+                  <h3 class="blog__title">
+                     <a href="#">Creat Creative & Clean</a>
+                  </h3>
+                  <p class="blog__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <div class="blog__footer">
+                     <div class="blog__date">
+                        <time datetime="2015-01-25">25 Jan 2015</time>.
+                     </div>
+                     <ul class="blog__stat list-reset">
+                        <li class="blog__stat-item blog__stat-item--like">25</li>
+                        <li class="blog__stat-item blog__stat-item--comment">11</li>
+                     </ul>
+                  </div>
+               </div>
+            </article>
+            <article class="blog__article">
+               <div class="blog__img">
+                  <img src="./src/img/works/3.jpg" alt="News 3">
+                  <div class="blog__hover">
+                     <button class="blog__hover-icons" aria-label="Coppy link">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                           <path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/>
+                        </svg>
+                     </button>
+                     <button class="blog__hover-icons">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                           <path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM144 256a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm144-64c0 35.3-28.7 64-64 64c-7.1 0-13.9-1.2-20.3-3.3c-5.5-1.8-11.9 1.6-11.7 7.4c.3 6.9 1.3 13.8 3.2 20.7c13.7 51.2 66.4 81.6 117.6 67.9s81.6-66.4 67.9-117.6c-11.1-41.5-47.8-69.4-88.6-71.1c-5.8-.2-9.2 6.1-7.4 11.7c2.1 6.4 3.3 13.2 3.3 20.3z"/>
+                        </svg>
+                     </button>
+                  </div>
+               </div>
+               <div class="blog__info">
+                  <h3 class="blog__title">
+                     <a href="#">Creat Creative & Clean</a>
+                  </h3>
+                  <p class="blog__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <div class="blog__footer">
+                     <div class="blog__date">
+                        <time datetime="2015-01-25">25 Jan 2015</time>.
+                     </div>
+                     <ul class="blog__stat list-reset">
+                        <li class="blog__stat-item blog__stat-item--like">25</li>
+                        <li class="blog__stat-item blog__stat-item--comment">11</li>
+                     </ul>
+                  </div>
+               </div>
+            </article>
+         </div>
+      </div>
+   </section>
+   <section class="plans">
+      <div class="container">
+         <h2 class="plans__header-title section-small-title">Chose plan</h2>
+         <ul class="plans__items list-reset">
+            <li class="plans__item">
+               <div class="plans__header">
+                  <h3 class="plans__title">Basic</h3>
+                  <div class="plans__cost">Free</div>
+               </div>
+               <div class="plans__info">
+                  <ul class="plans__desc list-reset">
+                     <li class="plans__desc-item"><span>20</span> Pages</li>
+                     <li class="plans__desc-item"><span>2</span> GB Storage</li>
+                     <li class="plans__desc-item"><span>150</span> Members</li>
+                     <li class="plans__desc-item"><span>2</span> Contributors</li>
+                  </ul>
+                  <button type="submit" class="plans__button">Purchase</button>
+               </div>
+            </li>
+            <li class="plans__item">
+               <div class="plans__header">
+                  <h3 class="plans__title">Standart</h3>
+                  <div class="plans__cost">$24.00</div>
+               </div>
+               <div class="plans__info">
+                  <ul class="plans__desc list-reset">
+                     <li class="plans__desc-item"><span>25</span> Pages</li>
+                     <li class="plans__desc-item"><span>10</span> GB Storage</li>
+                     <li class="plans__desc-item"><span>300</span> Members</li>
+                     <li class="plans__desc-item"><span>5</span> Contributors</li>
+                  </ul>
+                  <button type="submit" class="plans__button">Purchase</button>
+               </div>
+            </li>
+            <li class="plans__item">
+               <div class="plans__header">
+                  <h3 class="plans__title">Premium</h3>
+                  <div class="plans__cost">$40.00</div>
+               </div>
+               <div class="plans__info">
+                  <ul class="plans__desc list-reset">
+                     <li class="plans__desc-item"><span>30</span> Pages</li>
+                     <li class="plans__desc-item"><span>20</span> GB Storage</li>
+                     <li class="plans__desc-item"><span>500</span> Members</li>
+                     <li class="plans__desc-item"><span>10</span> Contributors</li>
+                  </ul>
+                  <button type="submit" class="plans__button">Purchase</button>
+               </div>
+            </li>
+            <li class="plans__item">
+               <div class="plans__header">
+                  <h3 class="plans__title">Proffesional</h3>
+                  <div class="plans__cost">$75.00</div>
+               </div>
+               <div class="plans__info">
+                  <ul class="plans__desc list-reset">
+                     <li class="plans__desc-item"><span>40</span> Pages</li>
+                     <li class="plans__desc-item"><span>40</span> GB Storage</li>
+                     <li class="plans__desc-item"><span>1000</span> Members</li>
+                     <li class="plans__desc-item"><span>20</span> Contributors</li>
+                  </ul>
+                  <button type="submit" class="plans__button">Purchase</button>
+               </div>
+            </li>
+         </ul>
+      </div>
+   </section>
+   <section class="contacts">
+      <div class="container">
+         <div class="contacts__header section-header">
+            <h2 class="contacts__header-title section-title">Get in touch</h2>
+            <p class="contacts__header-text section-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+         </div>
+         <form action="#" class="contacts__form">
+            <div class="contacts__item">
+               <label class="contacts__label" for="name">Name<span>*</span></label>
+               <input type="text" id="name" class="contacts__input">
+            </div>
+            <div class="contacts__item">
+               <label class="contacts__label" for="email">Email<span>*</span></label>
+               <input type="email" id="email" class="contacts__input">
+            </div>
+            <div class="contacts__item">
+               <label class="contacts__label" for="massage">Massage<span>*</span></label>
+               <textarea type="text" id="massage" placeholder="massage" class="contacts__massage">
+            </div>
+         </form>
+      </div>
+   </section>
+
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <script src="./src/js/app.js"></script>
+
+</body>
+</html>

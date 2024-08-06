@@ -1,0 +1,59 @@
+@font-face {
+   font-family: "Big Noodle Titling";
+   font-weight: 400;
+   src:
+     url("./../src/fonts/big-noodle-titling/BigNoodleTitling.woff2") format("woff2"),
+     url("./../src/fonts/big-noodle-titling/BigNoodleTitling.woff") format("woff"),
+}
+
+///////////////Roboto
+
+@font-face {
+   font-family: "Roboto";
+   font-weight: 100;
+   src:
+     url("./../src/fonts/roboto/Roboto-Thin.woff2") format("woff2"),
+     url("./../src/fonts/roboto/Roboto-Thin.woff") format("woff"),
+}
+
+@font-face {
+   font-family: "Roboto";
+   font-weight: 300;
+   src:
+     url("./../src/fonts/roboto/Roboto-Light.woff2") format("woff2"),
+     url("./../src/fonts/roboto/Roboto-Light.woff") format("woff"),
+}
+
+@font-face {
+   font-family: "Roboto";
+   font-weight: 400;
+   src:
+     url("./../src/fonts/roboto/Roboto-Regular.woff2") format("woff2"),
+     url("./../src/fonts/roboto/Roboto-Regular.woff") format("woff"),
+}
+
+@font-face {
+   font-family: "Roboto";
+   font-weight: 700;
+   src:
+     url("./../src/fonts/roboto/Roboto-Bold.woff2") format("woff2"),
+     url("./../src/fonts/roboto/Roboto-Bold.woff") format("woff"),
+}
+
+////////////Robot-Condensed
+
+@font-face {
+   font-family: "Roboto Condensed";
+   font-weight: 400;
+   src:
+     url("./../src/fonts/roboto-condensed/RobotoCondensed-Regular.woff2") format("woff2"),
+     url("./../src/fonts/roboto-condensed/RobotoCondensed-Regular.woff") format("woff"),
+}
+
+@font-face {
+   font-family: "Roboto Condensed";
+   font-weight: 700;
+   src:
+     url("./../src/fonts/roboto-condensed/RobotoCondensed-Bold.woff2") format("woff2"),
+     url("./../src/fonts/roboto-condensed/RobotoCondensed-Bold.woff") format("woff"),
+}

@@ -1,0 +1,11 @@
+.partners {
+   background-color: #1c1c1c;
+   padding: 100px 0;
+
+   &__container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+   }
+}

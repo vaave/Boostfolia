@@ -1,0 +1,82 @@
+.hero {
+   position: relative;
+   height: 100vh;
+   
+   &__slide {
+      position: relative;
+      background: center center no-repeat;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      &:nth-child(1) {
+         background-image: url(./../src/img/hero/2.jpg);
+      }
+      &:nth-child(2) {
+         background-image: url(./../src/img/hero/1.jpg);
+      }
+      &:nth-child(3) {
+         background-image: url(./../src/img/hero/2.jpg);
+      }
+      &::before {
+         content: "";
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         background-color: rgba($color: #353535, $alpha: .8);
+      }
+   }
+
+   &__container {
+      position: relative;
+      z-index: 3;
+      text-align: center;
+      color: #d6d5d5;
+      text-transform: uppercase;
+   }
+
+   &__title {
+      font-family: $title;
+      font-size: 72px;
+      letter-spacing: 0.15em;
+      line-height: 1.2;
+      margin: 0 0 25px;
+   }
+
+   &__subtitle {
+      font-family: $title;
+      letter-spacing: 0.1em;
+      font-size: 36px;
+      margin: 0;
+   }
+
+   &__scroll {
+      position: absolute;
+      bottom: 4%;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 2;
+      text-align: center;
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+      transition: all .2s ease-in-out;
+      &.hide {
+         opacity: 0;
+         visibility: hidden;
+      }
+   }
+
+   &__hint {
+      display: block;
+      font-family: $primary;
+      font-size: 12px;
+      font-weight: 700;
+      color: #ffffff;
+      text-transform: uppercase;
+      margin-top: 10px;
+   }
+}

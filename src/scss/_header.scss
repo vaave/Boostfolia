@@ -1,0 +1,21 @@
+.header {
+   position: fixed;
+   width: 100%;
+   z-index: 5;
+   padding: 50px 0;
+   background-color: #f8f6f6;
+   transition: padding .3s linear;
+   &.scroll {
+      padding: 20px 0;
+   }
+
+   &__container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+
+   &__burger  {
+      cursor: pointer;
+   }
+}

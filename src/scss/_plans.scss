@@ -1,0 +1,81 @@
+.plans {
+   padding: 60px 0;
+   background-color: #171f23;
+
+   &__header-title {
+      margin: 0 0 75px;
+   }
+
+   &__items {
+      display: flex;
+      flex-wrap: wrap;
+   }
+
+   &__item {
+      flex: 0 1 25%;
+      text-align: center;
+      border: 2px solid transparent;
+      transition: border-color .3s linear;
+      &:hover {
+         border-color: $acent;
+         .plans__desc-item span {
+            color: $acent;
+         }
+      }
+   }
+
+   &__header {
+      background-color: #0e1316;
+      padding: 40px 0;
+   }
+
+   &__info {
+      background-color: #1f282c;
+      padding: 50px 0;
+   }
+
+   &__title {
+      font-family: $primary;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      color: #ffffff;
+      text-transform: uppercase;
+      margin: 0 0 5px;
+   }
+
+   &__cost {
+      font-family: $primary;
+      font-size: 36px;
+      font-weight: 300;
+      color: #ffffff;
+   }
+
+   &__desc-item {
+      font-family: $primary;
+      font-size: 14px;
+      font-weight: 100;
+      letter-spacing: 0.1em;
+      color: #ffffff;
+      margin-bottom: 23px;
+      span {
+         font-weight: 400;
+      }
+   }
+
+   &__button {
+      padding: 10px 20px;
+      background-color: $acent;
+      border: none;
+      font-family: $primary;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      color: #ffffff;
+      text-transform: uppercase;
+      transition: background-color .3s ease-in-out;
+      &:hover {
+         background-color: #cf382a;
+      }
+   }
+}

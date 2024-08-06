@@ -1,0 +1,24 @@
+.swiper {
+   &-container {
+      overflow: hidden;
+   }
+
+   &-button-next, 
+   &-button-prev {
+      width: 30px;
+      height: 55px;
+      color: #ffffff;
+   }
+}
+
+.team .swiper {
+
+   &-pagination {
+      width: auto;
+      z-index: 2;
+   }
+
+   &-pagination-bullet-active {
+      background-color: $acent;
+   }
+}
